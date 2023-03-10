@@ -50,7 +50,7 @@
     }
   
     function dailer(selector, size) {
-      for (var s = 0; s < 60; ++s) {
+      for (var s = 0; s < 60; s++) {
         $(selector).append(
           '<span style="transform: rotate(' +
             6 * s +
